@@ -17,3 +17,9 @@ El proyecto forma parte de la práctica del curso de *Desarrollo Web*, donde apl
 1. **Clona** este repositorio en tu computadora:
    ```bash
    git clone https://github.com/IDAI-NE-MA2025/richard-calculadora.git
+
+---
+
+## 🚀 Ejemplo de Suma
+
+![Vista previa de la calculadora con la suma ](ejemplocalculadora.png)
