@@ -23,3 +23,7 @@ El proyecto forma parte de la práctica del curso de *Desarrollo Web*, donde apl
 ## 🚀 Ejemplo de Suma
 
 ![Vista previa de la calculadora con la suma ](EjemploSumaCalculadora.png)
+
+<p align="center">
+  <img src="EjemploSumaCalculadora.png" width="400" alt="Vista previa de la calculadora">
+</p>
