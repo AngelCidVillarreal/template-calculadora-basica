@@ -24,6 +24,5 @@ El proyecto forma parte de la práctica del curso de *Desarrollo Web*, donde apl
 
 ![Vista previa de la calculadora con la suma ](EjemploSumaCalculadora.png)
 
-<p align="center">
-  <img src="EjemploSumaCalculadora.png" width="400" alt="Vista previa de la calculadora">
-</p>
+En la imagen anterior, podemos ver como de lado izquierdo se debe de escribir un numero y del lado derecho se colocará el otro numero.
+El usuario podra dar click a un botón y mostrará el resultado. Actualmente se muestra en la página web, pero si lo muestran con un alert, lo doy por bien.
