@@ -3,7 +3,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Calculadora JS Richard</title>
+     <title>Calculadora-Angel-Emilio</title>
 
      <style type="text/css">
 		*{
@@ -110,5 +110,72 @@
 		</div>	
 	</div>
 
+</body>
+</html>
+    <script>
+        function getNumbers() {
+            const num1 = parseFloat(document.getElementById('numero1').value) || 0;
+            const num2 = parseFloat(document.getElementById('numero2').value) || 0;
+            return { num1, num2 };
+        }
+
+        // resultados
+        function displayResult(value) {
+            document.getElementById('resultado').textContent = value;
+        }
+
+
+
+        // suma
+        document.getElementById('suma').addEventListener('click', () => {
+            const { num1, num2 } = getNumbers();
+            const result = num1 + num2;
+            displayResult(result);
+        });
+
+        // resta
+        document.getElementById('resta').addEventListener('click', () => {
+            const { num1, num2 } = getNumbers();
+            const result = num1 - num2;
+            displayResult(result);
+        });
+
+        // Multiplication
+        document.getElementById('multiplica').addEventListener('click', () => {
+            const { num1, num2 } = getNumbers();
+            const result = num1 * num2;
+            displayResult(result);
+        });
+
+        // Division
+        document.getElementById('divide').addEventListener('click', () => {
+            const { num1, num2 } = getNumbers();
+            if (num2 === 0) {
+                displayResult("Error: Div / 0");
+            } else {
+                const result = num1 / num2;
+                displayResult(result);
+            }
+        });
+
+        // Exponente
+        document.getElementById('exponente').addEventListener('click', () => {
+            const { num1, num2 } = getNumbers();
+            const result = Math.pow(num1, num2); 
+            displayResult(result);
+        });
+
+        // raiz
+        document.getElementById('raiz').addEventListener('click', () => {
+            const { num1 } = getNumbers();
+            if (num1 < 0) {
+                displayResult("Error: Raíz de Negativo");
+            } else {
+                const result = Math.sqrt(num1); 
+                displayResult(result);
+            }
+        });
+
+    </script>
 </body>
 </html>
